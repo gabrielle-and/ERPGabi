@@ -24,7 +24,7 @@ function autenticarUsuario(usuario, senha) {
         if (cursor) {
             if (cursor.value.nome === usuario && String(cursor.value.senha) === String(senha)) {
                 autenticado = true;
-                window.location.href = "usuario.html";
+                window.location.href = "telaInicial.html";
                 return;
             }
             cursor.continue();
@@ -51,6 +51,7 @@ request.onsuccess = function(event) {
     db = event.target.result;
     // Exemplo: adicionar um usuário ao banco
     adicionarUsuario({ nome: "Gabi", senha: 123 });
+    adicionarUsuario({ nome: "Eric", senha: 123 });
     // Exemplo: listar todos os usuários
     listarUsuarios();
 };
