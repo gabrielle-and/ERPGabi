@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Usuário</title>
-    <link rel="stylesheet" href="../src/css/estilos.css">
+    <link rel="stylesheet" href="../src/css/cadastro.css">
 </head>
 <body>
-    <main>
+    <div class="menu-lateral">
+        <a href="telaInicial.html">Início</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="index.html">Login</a>
+    </div>
+    <div class="main-cadastro">
         <h1>Cadastro de Usuário</h1>
         <form class="form-cadastro">
             <label for="novo-usuario">Usuário</label>
@@ -16,7 +21,7 @@
             <input type="password" id="nova-senha" name="nova-senha" required>
             <button type="submit">Cadastrar</button>
         </form>
-    </main>
+    </div>
     <script src="./src/js/cadastro.js"></script>
 </body>
 </html>
