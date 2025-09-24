@@ -9,13 +9,16 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 14px 20px;
-    font-size: 1.2rem;
-    border-radius: 8px;
-    border: 1px solid #888;
-    background: rgba(255,255,255,0.85);
-    box-shadow: 0 2px 12px rgba(0,0,0,0.10);
-    min-width: 260px;
+    background: rgba(255,255,255,0.92);
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+    padding: 32px 24px;
+    min-width: 320px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     z-index: 3;
 }
 
