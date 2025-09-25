@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="../src/css/cadastro.css">
+</head>
+
+<body>
+    <div class="menu-lateral">
+        <a href="telaInicial.html">Início</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="index.html">Sair</a>
+    </div>
+    <div class="main-cadastro">
+        <h1>Cadastro de Cliente</h1>
+        <form class="form-cadastro">
+            <label for="novo-nome">Nome</label>
+            <input type="text" id="novo-nome" name="novo-nome" required>
+            <label for="novo-documento">Documento</label>
+            <input type="documento" id="novo-documento" name="novo-documento" required>
+            <label for="novo-endereco">Endereço</label>
+            <input type="text" id="novo-endereco" name="novo-endereco" required>
+            <label for="nova-datanascimento">Data de Nascimento</label>
+            <input type="text" id="nova-datanascimento" name="nova-datanascimento" required>
+            <label for="novo-telefone">Número de Telefone</label>
+            <input type="text" id="novo-telefone" name="novo-telefone" required>
+            <button type="submit">Cadastrar</button>
+
+        </form>
+    </div>
+    <script src="./src/js/cadastro.js"></script>
+</body>
+
+</html>
